@@ -156,12 +156,6 @@ class HomeView extends GetView<HomeController> {
                   
          backgroundColor: MaterialStateProperty.all(Color.fromARGB(255, 25, 114, 165))),
                     
-      // shape: RoundedRectangleBorder(
-      //   borderRadius: BorderRadius.only(topRight: Radius.circular(20), bottomRight:Radius.circular(20), )
-      // ),
-      
-      //padding: const EdgeInsets.symmetric(vertical: 12.0, horizontal: 0),
-        
         onPressed: (){
           controller.setIndex(index);
         },

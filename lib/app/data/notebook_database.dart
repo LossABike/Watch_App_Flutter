@@ -11,7 +11,7 @@ final String columnDescription = "description";
 final String columnDateTime = 'alarmDateTime';
 final String columnPending = 'isPending';
 
-
+//TEST
 // final String tableLocal = 'dataLocal';
 // final String columnIdLocal = 'id';
 // final String columnTitleLocal = 'title';
@@ -208,37 +208,5 @@ class NotebookDatabase{
     );
   }
 
-  // void insertLocalData(LocalDataInfo localDataInfo) async{
-  //   var db = await this.database;
-  //   await db.insert(tableLocal, localDataInfo.toMap());
-  // }
-  //
-  // Future<List<LocalDataInfo>> getLocalData() async{
-  //   List<LocalDataInfo> _localData = [];
-  //   var db = await this.database;
-  //   var result = await db.query(tableLocal);
-  //   result.forEach((element) {
-  //     var tmp = LocalDataInfo.fromMap(element);
-  //     _localData.add(tmp);
-  //   });
-  //   return _localData;
-  // }
-  //
-  // Future<int> deleteLocalData(int id) async{
-  //   var db = await this.database;
-  //   var res = await db.delete(tableLocal, where: '$columnIdLocal = ?', whereArgs: [id]);
-  //   return res;
-  // }
-  //
-  // Future<int> updateLanguage(int id)async{
-  //   var db = await this.database;
-  //   var res = await db.rawUpdate('''
-  //   UPDATE ${tableLocal}
-  //   SET
-  //   ${columnCodeNumber} = ?
-  //   WHERE ${columnIdLocal} = ?
-  //   ''',
-  //       [id ,0]);
-  //   return res;
-  // }
+
 }

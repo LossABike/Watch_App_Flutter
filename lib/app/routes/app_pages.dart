@@ -8,12 +8,15 @@ import 'package:alarm_clock_flutter/app/modules/extract_text_to_image/bindings/e
 import 'package:alarm_clock_flutter/app/modules/extract_text_to_image/views/extract_text_to_image_view.dart';
 import 'package:alarm_clock_flutter/app/modules/home/bindings/home_binding.dart';
 import 'package:alarm_clock_flutter/app/modules/home/views/home_view.dart';
+
+
 import 'package:alarm_clock_flutter/app/modules/notebook/bindings/notebook_binding.dart';
 import 'package:alarm_clock_flutter/app/modules/notebook/views/notebook_view.dart';
 import 'package:alarm_clock_flutter/app/modules/runTimer/bindings/run_timer_binding.dart';
 import 'package:alarm_clock_flutter/app/modules/runTimer/views/run_timer_view.dart';
 import 'package:alarm_clock_flutter/app/modules/stopwatch/bindings/stopwatch_binding.dart';
 import 'package:alarm_clock_flutter/app/modules/stopwatch/views/stopwatch_view.dart';
+
 import 'package:alarm_clock_flutter/app/modules/timeZone/bindings/time_zone_binding.dart';
 import 'package:alarm_clock_flutter/app/modules/timeZone/views/time_zone_view.dart';
 import 'package:alarm_clock_flutter/app/modules/timer/bindings/timer_binding.dart';
@@ -47,6 +50,7 @@ class AppPages {
       page: () => TimerView(),
       binding: TimerBinding(),
     ),
+    
     GetPage(
       name: _Paths.STOPWATCH,
       page: () => StopwatchView(),
@@ -57,6 +61,7 @@ class AppPages {
       page: () => RunTimerView(),
       binding: RunTimerBinding(),
     ),
+
     GetPage(
       name: _Paths.NOTEBOOK,
       page: () => NotebookView(),

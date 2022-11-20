@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import 'package:get/get.dart';
-
 import '../controllers/time_zone_controller.dart';
 
 class TimeZoneView extends GetView<TimeZoneController> {

@@ -24,7 +24,7 @@ void main() async{
         }
       }
   );
-  // This will works always for lock screen Orientation.
+  // 
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
       .then((_) {

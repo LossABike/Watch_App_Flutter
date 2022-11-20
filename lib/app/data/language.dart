@@ -2,7 +2,7 @@ import 'package:get/get.dart';
 
 class Language extends Translations{
   @override
-  // sd keys
+  // chuyen doi ngon ngu 
   Map<String, Map<String, String>> get keys =>
       {
         'es_US': {
@@ -86,12 +86,12 @@ class Language extends Translations{
           'ReStart':"Chạy lại",
           'version 1.0.1':"Phiên bản 1.0.1",
           'Select language Vietnamese':"Lựa chọn ngôn ngữ Vietnamese",
-          'Non-profit products':"Ứng dụng phi lợi nhuận",
+          'Non-profit products':"Ứng dụng free",
           'please make sure you want to buy me a coffee':"Để duy trì sản phẩm, bạn có thể ủng hộ tác giả 1 ly cafe",
           'Coppy success':"Đã sao chép",
           'Contact work':"Liên hệ hợp tác",
           'Start':"Bắt đầu",
-          'The application is still being developed and added functions. hope you ignore the shortcomings, the application will be updated soon, Thanks so much':"ứng dụng vẫn được tiếp tục phát triển và bổ sung các chức năng. mong bạn bỏ qua các thiếu sót, ứng dụng sẽ sớm được cập nhật.Cảm ơn bạn rất nhiều"
+          'The application is still developed.Thanks':"app đang được phát triển.thanks"
         },
       };
 }
