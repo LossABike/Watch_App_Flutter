@@ -29,7 +29,7 @@ class HomeView extends GetView<HomeController> {
         backgroundColor: Color(0xFF2D2F41),
         body: Row(
           children: <Widget>[
-            Obx(() =>
+            
                 SingleChildScrollView(
                     scrollDirection: Axis.vertical,
                     child: Column(
@@ -47,13 +47,14 @@ class HomeView extends GetView<HomeController> {
                         buildMenuButton('Notebook'.tr, 'notebook.png',4),
                       ],
                     )),
-            ),
-            // VerticalDivider(color: Colors.white70,width: 1,),
+            
+            VerticalDivider(color: Colors.white70,width: 1,),
             Obx(()=>ExpandScren())
           ],
         )
     );
   }
+  // ignore: missing_return
   Widget ExpandScren(){
     if(controller.count.value == 0 ){
       return Expanded(

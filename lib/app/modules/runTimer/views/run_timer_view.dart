@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 
 import '../controllers/run_timer_controller.dart';
 
+// ignore: must_be_immutable
 class RunTimerView extends GetView<RunTimerController> {
   CountDownController _controller = CountDownController();
 

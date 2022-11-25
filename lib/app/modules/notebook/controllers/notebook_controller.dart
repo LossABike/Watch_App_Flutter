@@ -103,4 +103,5 @@ class NotebookController extends GetxController {
   void updateDatabaseNotebook(NotebookInfo notebookInfo)async{
     _notebookDatabase.updateNotebook(notebookInfo);
   }
+  
 }
